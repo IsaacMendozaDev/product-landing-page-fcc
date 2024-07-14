@@ -93,6 +93,7 @@ body {
 .container-logo {
   padding: 0.5rem;
   border-radius: 8px;
+  cursor: default;
 
   display: flex;
   flex-direction: row;
@@ -139,4 +140,20 @@ body {
   color: var(--secundary-400);
   border-bottom: 4px solid var(--neutral-400);
   border-radius: 2px;
+}
+
+/* MOBILE STYLES */
+@media (width <= 440px) {
+  #header-img {
+    max-height: 140px;
+  }
+  .logo-title {
+    display: none;
+  }
+}
+@media (width <= 380px) {
+  .header-menu {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
