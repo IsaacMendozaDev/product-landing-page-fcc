@@ -490,7 +490,7 @@ body {
     }
     .contact-form-input {
       width: 100%;
-      padding: 0.5rem;
+      padding: 1rem;
 
       border-radius: 4px;
       border: none;
@@ -511,7 +511,7 @@ body {
       min-height: 150px;
 
       margin-top: 10px;
-      padding: 0.5rem;
+      padding: 1rem;
 
       border-radius: 4px;
       border: none;
@@ -687,3 +687,5 @@ body {
     justify-content: center;
   }
 }
+
+/* TODO: REFACTORING CSS */
